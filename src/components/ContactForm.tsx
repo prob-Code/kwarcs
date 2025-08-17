@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
@@ -82,7 +81,7 @@ const ContactForm = () => {
         from_name: emailData.name,
         from_email: emailData.email,
         message: emailData.message,
-        to_name: 'WRLDS Team', // Adding recipient name parameter
+        to_name: 'Kwarcs Team', // Adding recipient name parameter
         reply_to: emailData.email // Keeping reply_to for compatibility
       };
       

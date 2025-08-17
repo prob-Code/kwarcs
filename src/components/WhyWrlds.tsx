@@ -86,7 +86,7 @@ const WhyWrlds = () => {
         margin: "-100px"
       }} variants={containerVariants}>
           <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3">
-            Why WRLDS?
+            Why Kwarcs?
           </motion.h2>
           <motion.p variants={itemVariants} className="text-gray-600 text-lg max-w-3xl mx-auto">
             In an industry where complexity leads to failure, we bring simplicity and expertise to ensure your success
@@ -102,9 +102,9 @@ const WhyWrlds = () => {
               <BarChart className="w-8 h-8 text-gray-700" />
             </div>
             <h3 className="text-gray-900 text-2xl lg:text-3xl font-bold mb-3">
-              <AnimatedCounter end={3.8} decimals={1} suffix=" Billion" /> USD
+              <AnimatedCounter end={3.8} decimals={1} suffix=" Trillion" /> USD
             </h3>
-            <p className="text-gray-700">Market estimated to reach this value by 2030, with massive growth potential for smart textile solutions</p>
+            <p className="text-gray-700">IT Services Market — projected to grow rapidly by 2030, offering immense opportunities for businesses that embrace innovation.</p>
           </motion.div>
           
           <motion.div variants={itemVariants} className="bg-gray-100 p-6 rounded-xl border border-gray-200 text-center hover:bg-gray-200 transition-all">
@@ -115,7 +115,7 @@ const WhyWrlds = () => {
               <AnimatedCounter end={60} suffix="%" /> 
             </h3>
             <p className="text-gray-700">
-              of IoT projects stall at the proof-of-concept stage due to fragmented expertise and poor coordination
+              of projects fail at the execution stage due to fragmented teams, unclear strategies, and lack of integration.
             </p>
           </motion.div>
           
@@ -127,7 +127,7 @@ const WhyWrlds = () => {
               <AnimatedCounter end={80} suffix="%" />
             </h3>
             <p className="text-gray-700">
-              Increase in time-to-market for IoT products over the past four years, creating costly delays
+              increase in time-to-market for enterprise software over the past four years — delays that cost companies millions.
             </p>
           </motion.div>
         </motion.div>
@@ -138,7 +138,7 @@ const WhyWrlds = () => {
         }} variants={containerVariants}>
           <motion.div variants={itemVariants} className="text-center mb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-              What WRLDS Does for You
+              What Kwarcs Does for You
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We transform your ideas into market-ready solutions with tangible benefits for your business
@@ -153,7 +153,7 @@ const WhyWrlds = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">New Revenue Products</h4>
-                  <p className="text-gray-700">Create high-margin, sensor-enabled products for new revenue streams.</p>
+                  <p className="text-gray-700">Create high-margin, technology-driven solutions that open new revenue streams. From AI-powered platforms to cloud-enabled services, we help you turn innovation into profit.</p>
                 </div>
               </div>
             </motion.div>
@@ -189,7 +189,7 @@ const WhyWrlds = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">Brand-Building Leaps</h4>
-                  <p className="text-gray-700">We enable hardware/software leaps that define your brand's future.</p>
+                  <p className="text-gray-700">We enable software leaps that define your brand's future.</p>
                 </div>
               </div>
             </motion.div>

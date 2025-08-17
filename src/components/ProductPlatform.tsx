@@ -14,8 +14,7 @@ const ProductPlatform = () => {
       >
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Product</h2>
         <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-4xl">
-          5 years invested into tech focused end-to-end platform allowing customer brand to own pricing, branding, marketing and sales. Wrlds can help with all aspects of
-          product creation, certification, initial production and app development.
+       With 5 years of expertise, Kwarcs Group has built a tech-focused, end-to-end platform that empowers customer brands to take full control of their pricing, branding, marketing, and sales. We provide comprehensive support across every stage of the journey — from product ideation and design to certification, initial production, and app development — ensuring our partners can bring their vision to market with confidence and speed.
         </p>
       </motion.div>
 
@@ -78,7 +77,7 @@ const ProductPlatform = () => {
         >
           <div className="bg-gray-200 rounded-xl p-4 sm:p-6">
             <div className="flex flex-col items-center mb-3 sm:mb-4">
-              <h3 className="text-xl sm:text-2xl font-bold text-center mb-0">wrlds</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-center mb-0">kwarcs</h3>
               <p className="text-lg sm:text-xl font-medium text-center">Platform</p>
             </div>
             

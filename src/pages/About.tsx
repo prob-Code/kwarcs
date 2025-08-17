@@ -29,7 +29,7 @@ const About = () => {
               transition={{ duration: 0.5 }} 
               className="text-4xl font-bold mb-6"
             >
-              About WRLDS Technologies
+              About Kwarcs Group..
             </motion.h1>
             
             <div className="prose prose-lg max-w-none">
@@ -39,7 +39,7 @@ const About = () => {
                 transition={{ duration: 0.5, delay: 0.2 }} 
                 className="text-xl text-gray-600 mb-12"
               >
-                We're a team of innovators dedicated to revolutionizing smart textile technology for industries worldwide.
+                We are a team of innovators committed to revolutionizing smart textile technology with uncompromising security, ensuring trusted solutions for industries worldwide.
               </motion.p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
@@ -51,12 +51,10 @@ const About = () => {
                 >
                   <h2 className="text-3xl font-bold">Our Mission</h2>
                   <p className="text-gray-600">
-                    At WRLDS Technologies, we're on a mission to transform ordinary textiles into intelligent, 
-                    data-driven solutions that improve safety, performance, and quality of life across industries.
+                   At Kwarcs Group, we’re pioneering the transformation of everyday textiles into intelligent, data-powered systems that redefine safety, enhance performance, and elevate quality of life across industries.
                   </p>
                   <p className="text-gray-600">
-                    We believe that by embedding intelligence into everyday fabrics, we can create a more 
-                    connected, responsive, and safer world.
+                    We believe that by weaving intelligence into every fabric, we can build a more connected, adaptive, and secure world.
                   </p>
                 </motion.div>
                 
@@ -70,15 +68,15 @@ const About = () => {
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Innovation:</strong> We push boundaries to create solutions that weren't possible before.</span>
+                      <span><strong>Innovation:</strong> We push the boundaries of technology to develop solutions once thought impossible.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Quality:</strong> We're committed to excellence in every sensor, algorithm, and solution we deliver.</span>
+                      <span><strong>Quality:</strong> We uphold excellence in every sensor we craft, every algorithm we refine, and every solution we deliver.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Collaboration:</strong> We work closely with our clients to ensure their unique needs are met.</span>
+                      <span><strong>Collaboration:</strong> We partner relentlessly with our clients to not just meet their needs, but to exceed them at every step.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
@@ -97,9 +95,7 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm">
                   <p className="text-gray-600 mb-4">
-                    We started with the ambition to make an inherently scattered and complex development area modular, 
-                    smart and available to analog brands. After successfully raising millions of dollars for development, 
-                    we spent the first two years in full code mode.
+                    We began with the bold ambition to transform an inherently scattered and complex development space into something modular, intelligent, and accessible to analog brands. After securing millions in funding, we poured every resource, every hour, and every ounce of expertise into two relentless years of pure development.
                   </p>
                   <p className="text-gray-600 mb-4">
                     The goal was to turn all the scattered hardware and building blocks into simple modules to be 
@@ -122,35 +118,22 @@ const About = () => {
               >
                 <h2 className="text-3xl font-bold mb-6">Our Team</h2>
                 <p className="text-gray-600 mb-8">
-                  Our diverse team combines expertise in textile engineering, electronics, software development, 
-                  artificial intelligence, and industry-specific knowledge to deliver holistic solutions.
+                 Our team brings together hands-on experience in textile engineering, electronics, software, AI, and deep industry know-how to build solutions that work in the real world.
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                   {[
                     {
-                      name: "Felix von Heland",
-                      role: "CEO and Founder",
-                      bio: "Leading WRLDS Technologies with a vision to transform the future of smart textiles.",
-                      image: "/lovable-uploads/aa5291bd-2417-4c1e-9a02-0bcc71a92507.png"
-                    },
-                    {
-                      name: "Niek Bijman",
+                      name: "Ojas Satadeve",
                       role: "Software Lead",
                       bio: "Specializing in cloud infrastructure and APIs for seamless data integration.",
                       image: "/lovable-uploads/e502f601-c519-43a8-86f5-5fa89ae50d2f.png"
                     },
                     {
-                      name: "Chengjie Li",
-                      role: "Hardware Lead",
-                      bio: "Expert in embedded systems engineering, leading our hardware development efforts.",
-                      image: "/lovable-uploads/3de85ddd-15e1-4216-9697-f91abb9a47ce.png"
-                    },
-                    {
-                      name: "Love",
-                      role: "COO",
-                      bio: "Overseeing daily operations and ensuring business objectives are met effectively.",
-                      image: "/lovable-uploads/a9bb9110-964a-43b0-a5ab-7162140cd133.png"
+                      name: "Atharva Chaudhari",
+                      role: "Developer",
+                      bio: "Innovative software developer driving end-to-end product development, from architecting scalable systems to delivering high-impact, user-centric solutions.",
+                      image: "public/lovable-uploads/atharva.jpeg.jpg"
                     }
                   ].map((member, i) => (
                     <Card key={i} className="bg-gray-50 border border-gray-100 overflow-hidden">

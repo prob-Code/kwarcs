@@ -40,7 +40,7 @@ const ProjectPageLayout: React.FC<ProjectPageLayoutProps> = ({
           {/* Background Image with Overlay */}
           <div 
             className="absolute inset-0 bg-cover bg-center" 
-            style={{ backgroundImage: `url(${imageUrl})` }}
+          style={{ backgroundImage: `url("/lovable-uploads/7th image.png")` }}
           ></div>
           <div className={`absolute inset-0 ${darkMode ? 'bg-black/70' : 'bg-white/70'}`}></div>
           

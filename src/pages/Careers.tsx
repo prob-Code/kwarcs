@@ -1,4 +1,3 @@
-
 import PageLayout from '@/components/PageLayout';
 import { ArrowLeft, Mail, Linkedin, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -16,7 +15,10 @@ const Careers = () => {
         <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
           <div className="container mx-auto">
             <div className="max-w-6xl mx-auto">
-              <Link to="/" className="inline-flex items-center text-gray-500 hover:text-gray-700 mb-6 transition-colors">
+              <Link 
+                to="/" 
+                className="inline-flex items-center text-gray-500 hover:text-gray-700 mb-6 transition-colors"
+              >
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Back to Home
               </Link>
@@ -37,7 +39,7 @@ const Careers = () => {
                   transition={{ duration: 0.5, delay: 0.2 }} 
                   className="text-xl text-gray-600 mb-4"
                 >
-                  We're looking for passionate innovators to help us revolutionize the smart textile industry.
+                  We’re seeking passionate innovators to join us in revolutionizing the smart textile industry — driving innovation with security, sustainability, and cutting-edge technology at its core.
                 </motion.p>
                 
                 <motion.p
@@ -55,7 +57,7 @@ const Careers = () => {
                   transition={{ duration: 0.6 }}
                   className="mb-16"
                 >
-                  <h2 className="text-3xl font-bold mb-6">Why Join WRLDS?</h2>
+                  <h2 className="text-3xl font-bold mb-6">Why Join Kwarcs Group?</h2>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                     {[
                       {
@@ -77,20 +79,39 @@ const Careers = () => {
                       </div>
                     ))}
                   </div>
-                  
-                  <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm mt-12">
-                    <h3 className="font-bold text-xl mb-6">Contact Our COO</h3>
+
+                  {/* Floating COO Contact Card */}
+                  <motion.div
+                    animate={{
+                      y: [0, -8, 0],
+                      boxShadow: [
+                        "0 8px 20px rgba(0,0,0,0.08)",
+                        "0 12px 28px rgba(0,0,0,0.12)",
+                        "0 8px 20px rgba(0,0,0,0.08)"
+                      ]
+                    }}
+                    transition={{
+                      duration: 4,
+                      repeat: Infinity,
+                      ease: "easeInOut"
+                    }}
+                    className="bg-white rounded-xl border border-gray-200 p-8 mt-12"
+                  >
+                    <h3 className="font-bold text-xl mb-6 text-center">Contact Our COO</h3>
                     <div className="bg-white rounded-xl p-6 border border-gray-200">
                       <div className="flex flex-col items-center text-center">
                         <img 
-                          src="/lovable-uploads/a9bb9110-964a-43b0-a5ab-7162140cd133.png"
-                          alt="Love Anderberg"
+                          src="/lovable-uploads/ojasimage.jpg"
+                          alt="Ojas Satdeve"
                           className="w-32 h-32 rounded-full mb-4 object-cover filter grayscale"
                         />
-                        <h3 className="text-xl font-bold text-gray-900">Love Anderberg</h3>
+                        <h3 className="text-xl font-bold text-gray-900">Ojas Satdeve</h3>
                         <p className="text-gray-600 mb-4">COO</p>
                         <div className="flex flex-col space-y-3">
-                          <a href="mailto:love@wrlds.com" className="flex items-center text-gray-700 hover:text-blue-600">
+                          <a 
+                            href="mailto:love@wrlds.com" 
+                            className="flex items-center text-gray-700 hover:text-gray-900 transition"
+                          >
                             <Mail className="w-5 h-5 mr-2" />
                             love@wrlds.com
                           </a>
@@ -98,19 +119,22 @@ const Careers = () => {
                             href="https://www.linkedin.com/in/love-anderberg-67549a174/" 
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center text-gray-700 hover:text-blue-600"
+                            className="flex items-center text-gray-700 hover:text-gray-900 transition"
                           >
                             <Linkedin className="w-5 h-5 mr-2" />
                             LinkedIn Profile
                           </a>
-                          <a href="tel:+46760149508" className="flex items-center text-gray-700 hover:text-blue-600">
+                          <a 
+                            href="tel:+46760149508" 
+                            className="flex items-center text-gray-700 hover:text-gray-900 transition"
+                          >
                             <Phone className="w-5 h-5 mr-2" />
                             076-014 95 08
                           </a>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </motion.div>
                 </motion.div>
               </div>
             </div>

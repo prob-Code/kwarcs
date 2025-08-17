@@ -24,27 +24,27 @@ const Features = () => {
   const features = [
     {
       icon: <Activity className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Sports Performance",
-      description: "Specialized fabrics that analyze form, provide instant feedback, and help prevent injuries in athletic equipment.",
-      image: "/lovable-uploads/48e540e5-6a25-44e4-b3f7-80f3bfc2777a.png"
+      title: "Full stack Web Development",
+      description: "We build full-stack web platforms that turn everyday business operations into smart, data-driven systems—tracking performance, boosting efficiency, and helping companies grow across industries.",
+      image: "public/lovable-uploads/portfolio_02.png"
     },
     {
       icon: <Shield className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Military & Defense",
-      description: "Tactical gear with embedded sensors for soldier health monitoring, environmental awareness, and enhanced safety.",
-      image: "/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
+      title: "WEB Designing",
+      description: "We create smart, interactive web platforms that turn data from wearable tech and business operations into actionable insights, helping users make smarter decisions and stay efficient.",
+      image: "public/lovable-uploads/Catalogue-amico-1.png"
     },
     {
       icon: <HardHat className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Industrial Safety",
-      description: "Protective workwear that detects hazards, monitors fatigue, and prevents workplace injuries through early intervention.",
-      image: "/lovable-uploads/cf8966e3-de0d-445f-9fbd-ee6c48daa7ff.png"
+      title: "E-commerse",
+      description: "We create robust e-commerce platforms with secure payments, intuitive catalogs, real-time inventory, and personalized recommendations to help businesses grow online efficiently.",
+      image: "public/lovable-uploads/daku3.jpg"
     },
     {
       icon: <Zap className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Thermal Regulation",
-      description: "Adaptive heating and cooling textiles that respond to body temperature and environmental conditions.",
-      image: "/lovable-uploads/6739bd63-bf19-4abd-bb23-0b613bbf7ac8.png"
+      title: "AI/ML Solutions",
+      description: "We develop AI and machine learning solutions that turn data into actionable insights. Our platforms help businesses automate processes, predict trends, optimize decisions, and deliver smarter, faster results across industries.",
+      image: "public/lovable-uploads/9th image.png"  
     }
   ];
 
@@ -109,30 +109,28 @@ const Features = () => {
   }, []);
 
   const sensorCaseStudies = [{
-    image: "/lovable-uploads/843446fe-638e-4efb-b885-ed3cd505325a.png",
-    title: "Firefighter Safety",
-    description: "Advanced protective gear with gas, temperature, positioning, and motion sensors for safer emergency response."
+    image: "public/lovable-uploads/5th image.png",
+    
   }, {
-    image: "/lovable-uploads/5463c9c5-0946-4280-a14b-17636ff69a98.png",
-    title: "Industrial Worker Protection",
-    description: "Safety workwear with vibration, pressure, and heating sensors to prevent injuries and monitor environmental hazards."
+    image: "public/lovable-uploads/bhaukadam.jpg",
+    
   }, {
-    image: "/lovable-uploads/c5f8ee24-9815-4ebe-b65d-6f3d449feb8b.png",
-    title: "Sports Performance",
-    description: "Smart athletic wear with temperature and pressure sensors that track hydration, foot strike patterns, and performance metrics."
+    image: "public/lovable-uploads/1st image.jpg",
+    
+    
   }];
   const stepFlowItems = [{
     icon: <Microchip className="h-10 w-10 text-gray-700" />,
-    title: "WRLDS Proprietary Modules",
-    description: "Our core technology components developed in-house"
+    title: "DISCOVER",
+    description: "We shape brands through investigation, implementing in-depth research to challenge hypothesis at every corner."
   }, {
     icon: <Factory className="h-10 w-10 text-gray-700" />,
-    title: "Vetted Off-the-Shelf Hardware",
-    description: "Carefully selected components that complement our technology"
+    title: "DESIGN & BUILD",
+    description: "designing robust and scalable business-driven full stack development solutions."
   }, {
     icon: <Handshake className="h-10 w-10 text-gray-700" />,
-    title: "Vetted Production Partners",
-    description: "Expert manufacturing partners for quality and reliability"
+    title: "DELIVER",
+    description: "We adopt an iterative approach to our craft and our preparation, always looking for techniques to improve."
   }];
   const sprintPhases = [{
     name: "Planning",
@@ -144,7 +142,7 @@ const Features = () => {
     name: "Testing",
     icon: <Box className="h-4 w-4" />
   }, {
-    name: "Review",
+    name: "Deliver",
     icon: <RefreshCcw className="h-4 w-4" />
   }];
 
@@ -153,10 +151,10 @@ const Features = () => {
         <div className="w-full px-4 sm:px-6 lg:px-8" ref={featuresRef}> 
           <div className="text-center mb-10 max-w-3xl mx-auto feature-item">
             <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-              Textile Sensor Applications
+              Our Core Services
             </div>
             <p className="text-gray-600 mt-4">
-              Our textile sensor technology transforms ordinary fabrics into intelligent interfaces that collect data, monitor conditions, and enhance performance across diverse sectors.
+              We build practical tech solutions that turn everyday work into smart, data-powered systems. Our tools track performance, improve efficiency, and help businesses grow—whether it’s retail, manufacturing, services, or beyond.
             </p>
           </div>
           
@@ -278,13 +276,12 @@ const Features = () => {
           <div className="mt-16 mb-8 feature-item">
             <div className="text-center mb-8">
               <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-                Textile Sensor Applications
+                Our Core Services
               </div>
-              <h3 className="text-2xl font-bold">Real-World Use Cases</h3>
+              <h3 className="text-2xl font-bold">Technologies we Work on</h3>
               <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
-                Explore how our textile sensors are applied in different professional contexts, 
-                from emergency response to construction and athletics.
-                <span className="block text-sm mt-1 text-blue-500">Scroll horizontally to see more examples →</span>
+                Discover how our advanced sensor and data platforms power real-time analytics across industries—from emergency response to construction—enabling predictive insights, performance monitoring, and intelligent decision-making.
+                <span className="block text-sm mt-1 text-blue-500">Scroll horizontally to explore more examples and see our solutions in action. →</span>
               </p>
             </div>
             
@@ -310,8 +307,8 @@ const Features = () => {
                   <CarouselNext className="relative static right-auto translate-y-0 hover:bg-gray-100" />
                 </div>
               </Carousel>
-              <div className="text-center mt-6 text-sm text-gray-600">
-                <p className="font-medium">These examples showcase just a few ways our textile sensors can enhance safety and performance</p>
+              <div className="text-center mt-6 text-xl text-gray-600">
+                <p className="font-medium">At Kwarcs Group, we cut through the chaos with a unified approach — from strategy to delivery — ensuring your IT projects are on time, on budget, and built to scale.</p>
               </div>
             </div>
           </div>
@@ -335,10 +332,9 @@ const Features = () => {
             <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
               Our Approach
             </div>
-            <h2 className="text-3xl font-bold mb-4">How our technology works</h2>
+            <h2 className="text-4xl font-bold mb-4">Process we follow</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              WRLDS builds hardware and software with proprietary and off-the-shelf modules, 
-              allowing us to develop completely unique solutions at high speed and lower risk.
+              Our web development processes ensure that we use the time and resources optimally during the project lifecycle hence following industry best practices!
             </p>
           </div>
           

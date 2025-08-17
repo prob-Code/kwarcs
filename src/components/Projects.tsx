@@ -8,52 +8,52 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const projects = [
   {
     id: 1,
-    title: "6th SENSE Safety System",
-    brand: "FireCat Group",
-    description: "AI-driven sensor solution integrated into uniforms for law enforcement, military and firefighters, providing real-time vital monitoring and situational awareness in high-risk environments.",
-    tags: ["Safety", "Military", "AI Sensors", "Real-time Monitoring"],
-    imageUrl: "/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png",
+    title: "SentinelX Cybersecurity Suite",
+    brand: "Kwarcs Technologies",
+    description: "An AI-powered security platform offering real-time threat detection, vulnerability scanning, and automated incident response to safeguard enterprise networks and data.",
+    tags: ["Cybersecurity", "AI", "Threat Detection", "Real-time Monitoring"],
+    imageUrl: "public/lovable-uploads/7th%20image.png" ,
     isFeatured: true,
-    link: "/projects/firecat",
+    link: "/projects/cybersecurity-suite",
     details: `
-      FireCat Group aimed to enhance safety in high-risk environments. WRLDS Technologies provided the 6th SENSE solution with secure real-time data transmission, high-quality sensors resistant to extreme conditions, integrated AI-powered clothing, and a centralized control unit. Features include Man Down Alarm, GPS positioning, vital sign monitoring, and Panic Button. Benefits: life-saving technology, machine learning preventing false alarms, durable hardware with 7-10 year lifespan, washable sensors, and Plug & Play installation with 12-20 hours of operation per charge.
+      Kwarcs Technologies developed the SentinelX Cybersecurity Suite to protect organizations against modern cyber threats. It features AI-driven anomaly detection, real-time network monitoring, end-to-end encryption, and centralized security management. Benefits include reduced breach risk, automated mitigation workflows, compliance-ready reporting, and 24/7 protection with scalable deployment.
     `
   },
   {
     id: 2,
-    title: "Performance Athletic Footwear",
-    brand: "Global Sports Retail Leader",
-    description: "Smart Footwear R&D aiming to revolutionize development, fitting, and testing of athletic footwear.",
-    tags: ["Sports", "R&D", "Footwear", "Athletic Performance"],
-    imageUrl: "/lovable-uploads/b0622048-17b4-4c75-a3f0-6c9e17de1d09.png",
-    link: "/projects/sport-retail"
+    title: "AI-Powered E-Commerce Engine",
+    brand: "Kwarcs Technologies",
+    description: "A next-gen e-commerce platform leveraging machine learning for dynamic pricing, personalized recommendations, and seamless omni-channel shopping experiences.",
+    tags: ["E-Commerce", "Machine Learning", "Automation", "Personalization"],
+    imageUrl: "/lovable-uploads/4th%20image.png",
+    link: "/projects/ecommerce-engine"
   },
   {
     id: 3,
-    title: "Workwear Climate Control",
-    brand: "European Multinational Textile Producer",
-    description: "Fully integrated temperature controls for professionals working in extreme heat and cold. Modular approach to enable full-body systems.",
-    tags: ["Climate Control", "Workwear", "Temperature Regulation", "Extreme Conditions"],
-    imageUrl: "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png",
-    link: "/projects/workwear"
+    title: "Smart Workplace Automation",
+    brand: "Kwarcs Technologies",
+    description: "An IoT-enabled solution integrating access control, energy optimization, and predictive maintenance into one secure, cloud-based management dashboard.",
+    tags: ["IoT", "Automation", "Cloud", "Enterprise Solutions"],
+    imageUrl: "public/lovable-uploads/8th%20image.png",
+    link: "/projects/workplace-automation"
   },
   {
     id: 4,
-    title: "Ice Hockey Elite Skill Tracker",
-    brand: "Mars Blades",
-    description: "R&D product evaluating data from single IMU embedded in the hockey shoe. Aim: establish motion patterns that lead to ultimate acceleration, speed, and maneuverability.",
-    tags: ["Ice Hockey", "Motion Analysis", "Performance Tracking", "Sports"],
-    imageUrl: "/lovable-uploads/c30e0487-2fa0-41d1-9a0b-699cb2855388.png",
-    link: "/projects/hockey"
+    title: "AI-Driven Performance Analytics",
+    brand: "Kwarcs Technologies",
+    description: "A cloud analytics platform using advanced AI models to track, analyze, and optimize performance metrics for teams, applications, and business processes.",
+    tags: ["Analytics", "AI", "Business Intelligence", "Optimization"],
+    imageUrl: "public/lovable-uploads/9th%20image.png",
+    link: "/projects/performance-analytics"
   },
   {
     id: 5,
-    title: "Dog Activity Counter",
-    brand: "UK Insurance Giant",
-    description: "R&D project embedding a step counter in a dog collar. Measures daily activity and sends real-time data to the cloud for veterinary consultancies.",
-    tags: ["Pet Technology", "Insurance", "Activity Tracking", "R&D"],
-    imageUrl: "/lovable-uploads/d5ce901e-2ce0-4f2a-bce1-f0ca5d6192df.png",
-    link: "/projects/pet-tracker"
+    title: "Fleet & Asset Tracking System",
+    brand: "Kwarcs Technologies",
+    description: "A GPS and IoT-based tracking platform for monitoring fleets, assets, and logistics in real-time, enabling predictive maintenance and route optimization.",
+    tags: ["IoT", "Tracking", "GPS", "Logistics"],
+    imageUrl: "public/lovable-uploads/10th%20image.png",
+    link: "/projects/fleet-tracking"
   }
 ];
 
@@ -133,10 +133,10 @@ const Projects = () => {
             Customer Cases
           </div>
           <h2 className="text-3xl font-bold mb-3">
-            From Textile to Intelligence
+     Intelligent Systems for a Connected World
           </h2>
           <p className="text-gray-600">
-            Explore how our textile sensor technology is revolutionizing multiple industries with intelligent fabric solutions tailored to specific needs.
+           Explore how our advanced technology solutions are transforming industries with secure, intelligent systems tailored to your unique business needs.
           </p>
           {isMobile && (
             <div className="flex items-center justify-center mt-4 animate-pulse-slow">
@@ -214,8 +214,8 @@ const Projects = () => {
                           }
                         }}
                       >
-                        <span className="relative z-10">Learn more</span>
-                        <ArrowRight className="ml-2 w-4 h-4 relative z-10 transition-transform group-hover:translate-x-1" />
+                        <span className="relative z-10"></span>
+                       
                         <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-500 transition-all duration-300 group-hover:w-full"></span>
                       </Link>
                     </div>

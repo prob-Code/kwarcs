@@ -54,7 +54,7 @@ const TechDetails = () => {
               duration: 0.5,
               delay: 0.2
             }} className="text-base sm:text-lg text-gray-600 mb-12">
-                Explore the technical details behind our smart textile sensor technology and learn how our system architecture enables rapid development and deployment.
+                Explore how Kwarcs Group designs and delivers cutting-edge IT solutions. Our flexible system architecture enables rapid development, seamless deployment, and easy integration into your business environment..
               </motion.p>
               
               {/* System Architecture Section */}
@@ -73,8 +73,7 @@ const TechDetails = () => {
                 </div>
                 
                 <p className="text-gray-600 mb-8 text-base max-w-3xl">
-                  Our platform uses a three-tier architecture connecting physical devices to our cloud services and user applications. 
-                  The diagram below illustrates how data flows through our system, from sensor collection to user-facing applications.
+                  We use a scalable, multi-layer architecture that connects your data sources to secure cloud services and intuitive user applications. This ensures speed, reliability, and future-proof performance.
                 </p>
 
                 {/* Progress bar showing flow */}
@@ -108,19 +107,19 @@ const TechDetails = () => {
                 </div>
                 
                 <p className="text-gray-600 mb-8 text-base max-w-3xl">
-                  At WRLDS, we've developed a systematic approach to creating smart textile solutions that combines technical innovation with practical implementation. 
-                  Our comprehensive development process ensures that every project moves efficiently from concept to market-ready product.
+                 At Kwarcs, we fuse cutting-edge technical expertise with a business-first approach. Every solution we craft is custom-built for your industry, rigorously tested for performance, security, and scalability, and engineered to grow alongside your business. From the first line of code to continuous optimization and support, our mission is to deliver technology that creates measurable impact in the real world.
+
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
                   {[{
                   title: "Discovery",
                   icon: <Cpu className="w-5 h-5 text-gray-700" />,
-                  description: "We begin with thorough market research and requirements gathering to understand your specific needs and opportunities."
+                  description: "We start with in-depth market research and comprehensive requirements gathering to fully understand your unique needs, challenges, and opportunities."
                 }, {
                   title: "Design & Prototyping",
                   icon: <Code className="w-5 h-5 text-gray-700" />,
-                  description: "Our teams create initial designs and functional prototypes that allow for early testing and iteration."
+                  description: "Our teams transform ideas into striking initial designs and interactive prototypes, enabling early testing, rapid feedback, and seamless iteration turning concepts into reality faster than ever."
                 }, {
                   title: "Development & Testing",
                   icon: <FileText className="w-5 h-5 text-gray-700" />,

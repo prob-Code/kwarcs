@@ -7,36 +7,47 @@ import { Link } from 'react-router-dom';
 import SEO from '@/components/SEO';
 import BlogPostCard from '@/components/BlogPostCard';
 import { blogPosts } from '@/data/blogPosts';
-
 const Blog = () => {
-  // Get the newest blog post for the featured post section (the new post with id '6')
+  // Get the newest blog post for the featured post section
   const featuredPost = blogPosts.find(post => post.id === '6') || blogPosts[0];
-  // Get the rest of the blog posts for the grid section
+  // Get the rest of the blog posts
   const otherPosts = blogPosts.filter(post => post.id !== featuredPost?.id);
   
   return (
     <PageLayout>
       <SEO 
-        title="WRLDS - News and insights about smart textile technology" 
-        description="Stay updated with the latest news and insights about sensor-integrated textiles and smart technology from WRLDS Technologies."
+        title="Kwarcs Tech Journal – Insights on AI, Blockchain, and Future Technologies" 
+        description="Discover the latest breakthroughs, industry insights, and expert perspectives on AI, blockchain, cloud, and cybersecurity from the Kwarcs innovation team."
         imageUrl={featuredPost?.imageUrl || "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png"}
-        keywords={['smart textiles', 'textile technology', 'industry news', 'sensor innovation', 'wearable tech', 'smart fabrics']}
+        keywords={[
+          'AI innovation', 
+          'blockchain technology', 
+          'cybersecurity trends', 
+          'enterprise software', 
+          'cloud computing', 
+          'IoT solutions', 
+          'digital transformation'
+        ]}
         type="website"
       />
       
-      <div className="w-full pt-24 pb-12 bg-gradient-to-b from-black to-gray-900 text-white">
+      {/* Hero Section */}
+      <div className="w-full pt-24 pb-12 bg-gradient-to-b from-gray-900 to-black text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">WRLDS News &amp; Insights</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Kwarcs Innovation Hub</h1>
             <p className="text-xl text-gray-300 mb-6">
-              The latest trends and news in sensor-integrated textiles and smart technology
+              Your gateway to the most impactful stories, trends, and technologies shaping the digital future.
             </p>
           </div>
         </div>
       </div>
       
+      {/* Blog Grid */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          {/* Featured Post */}
           {featuredPost && (
             <Link to={`/blog/${featuredPost.slug}`} className="col-span-1 md:col-span-2 lg:col-span-3">
               <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
@@ -51,7 +62,7 @@ const Blog = () => {
                     }}
                   >
                     <div className="text-white text-center bg-black/30 backdrop-blur-sm p-4 rounded-lg">
-                      <span className="px-3 py-1 bg-white/10 rounded-full text-sm font-medium inline-block mb-4">Featured</span>
+                      <span className="px-3 py-1 bg-white/10 rounded-full text-sm font-medium inline-block mb-4">Featured Insight</span>
                       <h3 className="text-2xl md:text-3xl font-bold">{featuredPost.title}</h3>
                     </div>
                   </div>
@@ -61,7 +72,7 @@ const Blog = () => {
                       {featuredPost.excerpt}
                     </p>
                     <Button variant="outline" className="group">
-                      Read more 
+                      Read Full Article
                       <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </Button>
                   </CardContent>
@@ -83,16 +94,32 @@ const Blog = () => {
             />
           ))}
           
-          {/* If there are fewer than 3 published posts, add placeholders */}
+          {/* Placeholders for upcoming posts */}
           {blogPosts.length < 4 && Array.from({ length: Math.max(0, 4 - blogPosts.length) }).map((_, index) => (
             <BlogPostCard 
               key={`placeholder-${index}`}
-              title="Upcoming article"
-              excerpt="Stay tuned for more exciting articles about smart textiles and sensor technology."
-              imageUrl={index % 2 === 0 ? "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png" : "/lovable-uploads/700e27d7-0513-4bfa-8ac4-f7fd6087594c.png"}
+              title={
+                index === 0 
+                  ? "The Rise of AI in Enterprise Solutions" 
+                  : index === 1 
+                    ? "Blockchain Beyond Cryptocurrency" 
+                    : "Next-Gen Cloud Security Strategies"
+              }
+              excerpt={
+                index === 0
+                  ? "How artificial intelligence is streamlining workflows, boosting efficiency, and reshaping industries across the globe."
+                  : index === 1
+                    ? "Exploring how blockchain is driving transparency, trust, and efficiency in supply chain and data management."
+                    : "A deep dive into advanced security frameworks designed to protect cloud infrastructure from evolving threats."
+              }
+              imageUrl={
+                index % 2 === 0 
+                  ? "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png" 
+                  : "/lovable-uploads/700e27d7-0513-4bfa-8ac4-f7fd6087594c.png"
+              }
               date="Coming soon"
               slug="#"
-              category="Upcoming"
+              category="Technology"
             />
           ))}
         </div>

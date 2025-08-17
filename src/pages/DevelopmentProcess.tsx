@@ -16,29 +16,29 @@ const DevelopmentProcess = () => {
   // Process component logic
   const processes = [{
     id: 1,
-    title: "Textile Sensor Design",
-    description: "We begin by designing custom textile sensors specifically for your industry and use case, selecting appropriate conductive materials and sensor types.",
-    steps: ["Industry-specific requirement analysis", "Sensor type and material selection", "Prototype sensor development", "Initial testing and calibration"]
+    title: "Requirement Analysis",
+    description: "We start by understanding your goals, challenges, and business needs, so we can design the right solution from the ground up.",
+    steps: ["Business and technical requirement gathering", "Identifying the best technology stack", "Creating solution architecture", "Initial feasibility and performance checks"]
   }, {
     id: 2,
-    title: "Garment Integration",
-    description: "Our engineering team seamlessly integrates sensors into clothing and footwear while maintaining comfort, durability, and washability.",
-    steps: ["Ergonomic placement optimization", "Non-intrusive integration techniques", "Durability and washability testing", "Comfort and user experience validation"]
+    title: "Solution Design",
+    description: "We design IT systems, applications, and platforms that are secure, scalable, and easy to use.",
+    steps: ["User experience (UX) and interface (UI) design", "System architecture planning", "Scalability and integration strategy", "Prototyping and feedback sessions"]
   }, {
     id: 3,
-    title: "AI & Data Analytics",
-    description: "We develop specialized algorithms that transform textile sensor data into actionable insights unique to your industry requirements.",
-    steps: ["Industry-specific algorithm development", "ML model training with domain data", "Real-time analytics implementation", "Insight delivery optimization"]
+    title: "Development & Integration",
+    description: "Our developers build your solution and integrate it with your existing systems for smooth operations.",
+    steps: ["Agile software development", "API and third-party service integration", "Performance optimization", "Security implementation and testing"]
   }, {
     id: 4,
-    title: "Production & Certification",
-    description: "We handle manufacturing, quality control, and ensure all textile sensor products meet relevant industry standards and certifications.",
-    steps: ["Textile manufacturing partner selection", "Quality assurance processes", "Industry-specific certification procurement", "Initial production supervision"]
+    title: "Deployment & Certification",
+    description: "We launch your solution with zero downtime and ensure it meets all required compliance standards.",
+    steps: ["Cloud or server deployment", "Quality assurance and testing", "Compliance and certification support", "Initial live environment supervision"]
   }, {
     id: 5,
-    title: "Deployment & Support",
-    description: "We provide comprehensive training, implementation assistance, and ongoing support to ensure successful adoption and continuous improvement.",
-    steps: ["User training and onboarding", "Data interpretation guidance", "Performance monitoring", "Continuous improvement iterations"]
+    title: "Ongoing Support & Optimization",
+    description: "Our work doesn’t stop at launch. We provide continuous support, updates, and improvements to keep your system running at its best.",
+    steps: ["User onboarding and training", "Performance monitoring and reporting", "Feature updates and enhancements", "Continuous improvement cycles"]
   }];
   useEffect(() => {
     processSectionsRef.current = processes.map((_, i) => processSectionsRef.current[i] || null);
@@ -126,8 +126,7 @@ const DevelopmentProcess = () => {
             
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-12">
-                We've refined our development methodology to minimize risk and maximize innovation, 
-                ensuring your textile sensor project moves efficiently from concept to reality.
+                At Kwarcs Group, we make technology simple, reliable, and built around your needs. From the first idea to final delivery, we guide your IT project every step of the way.
               </p>
               
               {/* From Textile to Intelligence Process Section */}
@@ -171,23 +170,23 @@ const DevelopmentProcess = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-2" />
-                    <span>Rapid iteration cycles for continuous improvement</span>
+                    <span>Fast Iterations – Deliver and improve quickly</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-2" />
-                    <span>Transparent communication throughout the development process</span>
+                    <span>Clear Communication – Stay informed at every step</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-2" />
-                    <span>Modular architecture allowing for flexible and scalable solutions</span>
+                    <span>Scalable Architecture – Solutions that grow with your business</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-2" />
-                    <span>Risk mitigation strategies built into every phase</span>
+                    <span>Built-in Security – Risk mitigation at all levels</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-2" />
-                    <span>Focus on user experience and practical functionality</span>
+                    <span>User-Centric Design – Focus on real-world usabil</span>
                   </li>
                 </ul>
               </div>

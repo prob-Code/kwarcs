@@ -34,13 +34,13 @@ export interface ContentSection {
 export const blogPosts: BlogPost[] = [
   {
     id: '6',
-    title: 'Wearable Safety Tech: Protecting Workers While Delivering Real ROI',
+    title: 'Intelligent Tech Infrastructure: Securing Systems, Boosting ROI',
     slug: 'wearable-safety-tech-protecting-workers-roi',
     excerpt: 'Discover how wearable safety technology puts worker wellbeing first while delivering measurable business benefits through injury prevention and enhanced workplace safety.',
     date: 'June 12, 2025',
-    author: 'WRLDS Technologies',
+    author: 'Kwarcs Group',
     category: 'Business',
-    imageUrl: '/lovable-uploads/078a129e-0f98-4d91-af61-873687db1a04.png',
+    imageUrl: 'public/lovable-uploads/daku1.png',
     keywords: [
       'wearable safety technology',
       'workplace injury prevention',
@@ -199,7 +199,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: '5',
-    title: 'Smart PPE Revolution: How Safety Technology is Transforming Worker Protection',
+    title: 'Next-Gen IT: Protecting Digital Assets While Powering Business Growth',
     slug: 'smart-ppe-revolution-safety-technology',
     excerpt: 'Discover how smart textiles and sensor technology are revolutionizing personal protective equipment, creating safer workplaces and preventing accidents before they happen.',
     date: 'June 5, 2025',
@@ -227,7 +227,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: 'paragraph',
-        content: 'The realm of personal protective equipment (PPE) is undergoing a significant transformation, driven by advancements in smart textiles and sensor technology. Traditional PPE, designed as a passive barrier against workplace hazards, is evolving into intelligent, interconnected systems that actively monitor conditions and provide real-time alerts. This shift is creating safer work environments and preventing accidents before they occur.'
+        content: 'Next-gen IT solutions combine advanced security measures with intelligent infrastructure to protect an organization’s most valuable digital assets while driving performance and innovation. By integrating cutting-edge cybersecurity, cloud optimization, and data analytics, businesses can safeguard sensitive information, ensure operational continuity, and unlock new growth opportunities. This future-ready approach not only defends against evolving threats but also empowers companies to operate smarter, scale faster, and achieve measurable returns on their technology investments.'
       },
       {
         type: 'heading',
@@ -235,7 +235,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        content: 'For decades, PPE has primarily served as a last line of defense, offering limited protection and often failing to address the underlying causes of accidents. However, the integration of smart technology is enabling a proactive approach to safety, where PPE not only protects but also anticipates and mitigates risks.'
+        content: 'The future of business lies in technology that not only defends but drives. By combining cybersecurity, intelligent automation, and optimized IT infrastructure, next-gen IT empowers companies to innovate without compromise. From safeguarding critical data to streamlining workflows, these solutions turn security into a growth enabler, delivering measurable results across performance, customer trust, and ROI.'
       },
       {
         type: 'subheading',
@@ -244,10 +244,10 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'list',
         items: [
-          'Embedded Sensors: Detecting environmental conditions, physiological parameters, and potential hazards.',
-          'Connectivity: Enabling real-time data transmission and communication between workers, supervisors, and emergency responders.',
-          'Data Analytics: Providing insights into worker performance, risk factors, and safety trends.',
-          'Alert Systems: Triggering automated warnings and notifications to prevent accidents and ensure timely intervention.'
+          'Essential Elements of Next-Gen IT for Security and Growth',
+          'The Building Blocks of Next-Gen IT: From Data Protection to Business Acceleration',
+          'Next-Gen IT Essentials: Safeguarding Assets, Driving ROI',
+          'Key Innovations Powering Secure and Scalable IT Infrastructure'
         ]
       },
       {
