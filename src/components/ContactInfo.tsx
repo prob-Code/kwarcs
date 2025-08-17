@@ -24,7 +24,7 @@ const ContactInfo = () => {
   <div className="bg-white rounded-xl shadow-xl p-8 border border-gray-700 transform hover:scale-105 transition duration-300">
     <div className="flex flex-col items-center text-center">
       <img 
-        src="/lovable-uploads/vedant.jpg"
+        src="public/lovable-uploads/222222222222222.jpg"
         alt="Atharva Chaudhari"
         className="w-40 h-40 rounded-full mb-4 object-cover"
       />
