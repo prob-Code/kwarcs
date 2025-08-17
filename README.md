@@ -68,3 +68,4 @@ Simply open [Lovable](https://lovable.dev/projects/ec1d4f1e-2506-4da5-a91b-34afa
 
 We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
 # kwarcs_2
+# kwarcs_2
